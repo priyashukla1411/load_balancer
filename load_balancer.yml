@@ -92,13 +92,6 @@ Resources:
       InstanceType: t2.micro
       ImageId: ami-079b5e5b3971bd10d
       SubnetId : !Ref PublicSubnet2
-
-
-
-
-
-
-
       
 # EC2 and ALB Security Groups
   ELBSecurityGroup:
@@ -115,7 +108,7 @@ Resources:
   EC2SecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
-      GroupDescription: hELLO cHARGT5Y67JKIKJ6Y5R5TY67U8IO9
+      GroupDescription: hELLO how are u
       VpcId: !Ref VPC
       SecurityGroupIngress:
       - IpProtocol: tcp
